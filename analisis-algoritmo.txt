@@ -1,0 +1,48 @@
+-	Creamos el constructor “Clientes” y le agregamos sus respectivos atributos.
+-	Declaramos las variables con la función “this”:
+        this.Nombre= Nombre;
+        this.Apellido= Apellido;
+        this.Domicilio= Domicilio;
+        this.CodigoPostal= CodigoPostal;
+        this.Telefono= Telefono;
+        this.Dni= Dni;
+        this.Cuit= Cuit;
+-	Creamos un array con la variable cliente “= []”.
+
+-	Creamos el formulario con sus clases/etiquetas correspondientes y citamos los links para anexarlos entre si.
+
+-	Creamos las funciones correspondientes para obtener cada dato que se ingrese en el formulario y que retorne la información:
+ function obtenerDomicilio(){
+    let Domicilio = document.getElementById("Domicilio").value;
+    return Domicilio; 
+-	Hacemos una función más para crear un nuevo cliente y que los datos sean almacenados en una nueva variable a la que le asignamos el nombre de “client”.
+}
+function crearCliente(){
+    var client = new Clientes(obtenerNombre(),obtenerApellido(),obtenerDomicilio(),obtenerCodigoPostal(),
+obtenerTelefono(),obtenerDni(),obtenerCuit());
+clientes.push(client);
+mostrarCliente();
+console.log(client)
+}
+
+-	Para mostrar los datos almacenados a partir de la creación de un nuevo cliente utilizamos la siguiente función:
+function mostrarCliente(){
+    var nuevos = '';
+    for(let i =0; i <clientes.length; i++){
+        
+        nuevos += `
+        nombre: ${clientes[i].Nombre}--Apellido: ${clientes[i].Apellido} -- Domicilio: ${clientes[i].Domicilio} -- Código Postal: ${clientes[i].CodigoPostal} -- Teléfono: ${clientes[i].Telefono} --Cuit: ${clientes[i].Cuit}
+       
+        `
+    }
+    document.getElementById("nuevoCliente").innerHTML= nuevos;
+    console.log(clientes)
+     
+} 
+-	De esta manera, con la función “for” hacemos que la información inicie en el índice 0 con una determinada condición y se actualice una cantidad de veces indicada.
+
+-	Por último, creamos un archivo css donde citando las clases/etiquetas/links correspondientes le damos estilo a nuestro formulario.
+
+
+
+

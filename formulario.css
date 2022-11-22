@@ -1,0 +1,155 @@
+body {
+    margin: 5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+.formulario__label {
+    position: relative;
+    margin-top: -80px;
+
+
+}
+
+.container-md {
+    justify-content: center;
+    width: 32% !important;
+    border-style: outset;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 80%;
+    background: rgb(234, 234, 240);
+    background: linear-gradient(120deg, rgba(234, 234, 240, 1) 15%, rgba(2, 11, 13, 1) 64%);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.container-md {
+    background: transparent !important;
+    border: none !important;
+}
+
+input {
+    background: transparent !important;
+
+    border: 1px solid rgba(0, 0, 0, 0.952) !important;
+}
+
+body {
+    margin: 5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+.formulario__label {
+    position: relative;
+    margin-top: -80px;
+
+
+}
+
+.container-md {
+    justify-content: center;
+    width: 32% !important;
+    border-style: outset;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 80%;
+    background: rgba(234, 234, 240, 0);
+    background: transparent !important
+    
+}
+
+#Nombre {
+
+    background-color: rgb(251, 252, 249);
+
+}
+
+#Domicilio {
+    background-color: rgb(251, 252, 249);
+
+}
+
+#CodigoPostal {
+    background-color: rgb(251, 252, 249);
+}
+
+#Telefono {
+    background-color: rgb(251, 252, 249);
+}
+
+#Dni {
+    background-color: rgb(251, 252, 249);
+}
+
+#Cuit {
+    background-color: rgb(251, 252, 249);
+}
+
+#Titulo {
+    color: rgb(10, 10, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-label {
+    color: rgb(8, 8, 8);
+    display: flex;
+    text-align: center;
+}
+
+
+body {
+
+    background-image:
+        linear-gradient(to right, rgba(207, 215, 221, 0.382), rgba(223, 223, 224, 0.244)), url('/img/sky-clouds-sun-sunlight-wallpaper-preview.jpg') !important;
+    background-size: contain
+}
+
+.container-md {
+    background: transparent !important;
+    border: none !important;
+}
+
+
+
+#guardar {
+    background-color: rgba(81, 79, 66, 0.756) !important;
+    width:fit-content;
+    
+}
+
+#contenedor {
+    background: transparent !important;
+    border: none !important;
+}
+
+#nuevoCliente {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+
+}
+h3{
+    text-align: center;
+}
